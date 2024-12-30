@@ -20,3 +20,27 @@ def main():
 
 if __name__ == '__main__':
     main()
+
+
+
+
+
+'''
+django-admin startproject myapp
+
+
+django-admin startproject UrbanDjango
+
+
+python manage.py runserver
+
+python manage.py startapp app
+
+python manage.py startapp example1
+
+python manage.py startapp example2
+
+python manage.py startapp example3
+
+pip freeze | Out-File -Encoding UTF8 requirements.txt
+'''
