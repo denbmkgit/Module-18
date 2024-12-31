@@ -11,3 +11,5 @@ class class_template(TemplateView):
 
 def check():
     print('I am from UrbanDjango.task2.views import check')
+
+    #        python manage.py startapp task3
