@@ -20,8 +20,8 @@ from task2.views import func_template, class_template
 
 urlpatterns = [
     path('admin/', admin.site.urls),
-    path('class/', class_template.as_view(template_name='class_template.html')),
-    path('func/', func_template),
+    # path('class/', class_template.as_view(template_name='class_template.html')),
+    # path('func/', func_template),
     path('', class_template.as_view(template_name='main_page.html')),
     path('shope/', class_template.as_view(template_name='shope.html')),
     path('basket/', class_template.as_view(template_name='basket.html')),
